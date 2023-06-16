@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32532.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///g:/george/documents/random projects/textadventure/textadventure/interface.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "3185a642556c388bb01b5bbfbbd2e88b7ae33d6203495c7a3252db54206601fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/george/documents/random projects/textadventure/textadventure/interface.h"
+          },
+          "hashes": {
+            "sha-256": "e2db47b9189041aa6738a049263a9b876bfe004e3e60875d48f7c48a50ab6927"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/george/documents/random projects/textadventure/textadventure/textadventure.h"
+          },
+          "hashes": {
+            "sha-256": "c7afb3722224b87ad726f8e58df058e127b091d279616bbdd200ea753e63328d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/george/documents/random projects/textadventure/textadventure/map.h"
+          },
+          "hashes": {
+            "sha-256": "7c20c504036a8670fd3a08ab307bed6a8e79f357b8e4d9989dc16039c76bba80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/george/documents/random projects/textadventure/textadventure/inventory.h"
+          },
+          "hashes": {
+            "sha-256": "73a108bb4c710d49dc22e5a115d15ca52f381ba20acb80f551fbf73ed8a2ec82"
+          }
+        }
+      ]
+    }
+  ]
+}
